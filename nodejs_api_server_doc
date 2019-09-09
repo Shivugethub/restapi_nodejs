@@ -1,0 +1,27 @@
+
+		node js respt api.
+
+>setup
+
+
+	>mkdir nodejs_restapi.
+
+	>cd nodejs_restapi then open in editor(vs code).
+	
+	>npm init to initialize the creation of package.json file for nodejs project
+
+	>npm i express to install expressjs, with this it will install node_modules for running expressjs
+
+	>create a new file to launch application i.e "app.js", and 
+		*(replace index.js in package.json file on main:app.js)
+
+	>use demon service i.e. nodemon watch for changes inside the js file and restart app server
+
+		>sudo npm i -g nodemon,  -g for global, sudo for super user on ubuntu/mac
+
+
+	>npm i morgan, to see detail of the request for server.
+
+
+
+

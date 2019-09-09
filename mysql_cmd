@@ -1,0 +1,24 @@
+
+			MySQL cmds
+
+
+	>system clear :to clear screen 
+
+	>show databases;
+
+	>create database name;
+
+	>use database_name;
+
+		Table creation.
+
+		>create table table_name (table_col1 type,table_col2 type,...);
+
+			ex: create table user (id int not null auto_increment, first_name varchar(30) not null, last_name varchar(20) 							not null,primary key(id));
+
+
+		>show tables;
+
+		>describe table_name; to detail table
+
+		
